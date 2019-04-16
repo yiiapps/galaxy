@@ -1,3 +1,6 @@
+修改为支持php7.3 现在是5.6
+
+##############################
 Yincart2 Galaxy System
 ===================================
 
@@ -38,12 +41,12 @@ modules                  公用模块
     shipment             物流模块
     store                商店模块
     system               系统模块
-star-center              平台后台      
+star-center              平台后台
 star-mall                商城前台：如天猫、京东
-star-merchant            商家后台   
-star-store               商店前台  
+star-merchant            商家后台
+star-store               商店前台
 star-upload              上传的文件图片等（新安装需要自己创建此目录）
-themes                   主题皮肤          
+themes                   主题皮肤
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 tests                    contains various tests for the advanced application
