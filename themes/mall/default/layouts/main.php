@@ -1,43 +1,42 @@
 <?php
-use yii\helpers\Html;
+use star\member\models\Wishlist;
 use store\assets\AppAsset;
-use store\widgets\Alert;
+use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\Breadcrumbs;
-use star\member\models\Wishlist;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
 
 AppAsset::register($this);
 ?>
-<?php $this->beginPage() ?>
+<?php $this->beginPage();?>
 <!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>">
+<html lang="<?=Yii::$app->language;?>">
 <head>
-    <meta charset="<?= Yii::$app->charset ?>">
+    <meta charset="<?=Yii::$app->charset;?>">
     <!-- Mobile specific metas
     ============================================ -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <?= Html::csrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
+    <?=Html::csrfMetaTags();?>
+    <title><?=Html::encode($this->title);?></title>
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <?php
-    $this->head();
-    list($path, $link) = $this->getAssetManager()->publish('@theme/mall/default/assets');
-    $this->registerCssFile($link . '/css/animate.css', ['depends' => [\yii\web\JqueryAsset::className()]]);
-    $this->registerCssFile($link . '/css/fontello.css', ['depends' => [\yii\web\JqueryAsset::className()]]);
-    $this->registerCssFile($link . '/js/rs-plugin/css/settings.css', ['depends' => [\yii\web\JqueryAsset::className()]]);
-    $this->registerCssFile($link . '/js/owlcarousel/owl.carousel.css', ['depends' => [\yii\web\JqueryAsset::className()]]);
-    $this->registerCssFile($link . '/css/style.css', ['depends' => [\yii\web\JqueryAsset::className()]]);
-    $this->registerCssFile($link . '/js/arcticmodal/jquery.arcticmodal.css', ['depends' => [\yii\web\JqueryAsset::className()]]);
+$this->head();
+list($path, $link) = $this->getAssetManager()->publish('@theme/mall/default/assets');
+$this->registerCssFile($link . '/css/animate.css', ['depends' => [\yii\web\JqueryAsset::className()]]);
+$this->registerCssFile($link . '/css/fontello.css', ['depends' => [\yii\web\JqueryAsset::className()]]);
+$this->registerCssFile($link . '/js/rs-plugin/css/settings.css', ['depends' => [\yii\web\JqueryAsset::className()]]);
+$this->registerCssFile($link . '/js/owlcarousel/owl.carousel.css', ['depends' => [\yii\web\JqueryAsset::className()]]);
+$this->registerCssFile($link . '/css/style.css', ['depends' => [\yii\web\JqueryAsset::className()]]);
+$this->registerCssFile($link . '/js/arcticmodal/jquery.arcticmodal.css', ['depends' => [\yii\web\JqueryAsset::className()]]);
 
-    $this->registerJsFile($link . '/js/modernizr.js', ['depends' => [\yii\web\JqueryAsset::className()]]);
-    ?>
+$this->registerJsFile($link . '/js/modernizr.js', ['depends' => [\yii\web\JqueryAsset::className()]]);
+?>
 </head>
 <body>
-<?php $this->beginBody() ?>
+<?php $this->beginBody();?>
 
 <!--[if lt IE 9]>
 
@@ -91,28 +90,28 @@ AppAsset::register($this);
 
             <div class="col-lg-8 col-md-7 col-sm-8">
                 <?php
-                if (Yii::$app->user->isGuest) {
-                    ?>
+if (Yii::$app->user->isGuest) {
+    ?>
                     <!-- - - - - - - - - - - - - - Login - - - - - - - - - - - - - - - - -->
 
-                    <p>Welcom visitor <a href="<?= Url::to(['/user/login']) ?>">Login</a> or <a
-                            href="<?= Url::to(['/user/registration/register']) ?>">Register</a></p>
+                    <p>Welcom visitor <a href="<?=Url::to(['/user/login']);?>">Login</a> or <a
+                            href="<?=Url::to(['/user/registration/register']);?>">Register</a></p>
 
                     <!-- - - - - - - - - - - - - - End login - - - - - - - - - - - - - - - - -->
                 <?php
-                } else {
-                    $countWishlist = count(Wishlist::findAll(['user_id' => Yii::$app->user->id]));
-                    ?>
-                    <div class="col-sm-2"><a href="<?= Url::to(['/member']) ?>" class="default_t_color">My Account</a>
+} else {
+    $countWishlist = count(Wishlist::findAll(['user_id' => Yii::$app->user->id]));
+    ?>
+                    <div class="col-sm-2"><a href="<?=Url::to(['/member']);?>" class="default_t_color">My Account</a>
                     </div>
                     <div class="col-sm-2"><a href="#" class="default_t_color">Orders List</a></div>
-                    <div class="col-sm-2"><a href="<?= Url::to(['/member/wishlist/get-wishlist']) ?>"
+                    <div class="col-sm-2"><a href="<?=Url::to(['/member/wishlist/get-wishlist']);?>"
                                              class="default_t_color">Wishlist</a></div>
-                    <div class="col-sm-2"><a href="<?= Url::to(['/order/home/order/checkout']) ?>" class="default_t_color">Checkout</a>
+                    <div class="col-sm-2"><a href="<?=Url::to(['/order/home/order/checkout']);?>" class="default_t_color">Checkout</a>
                     </div>
-                    <div class="col-sm-2"><a href="<?= Url::to(['/user/security/logout']) ?>" class="default_t_color"
+                    <div class="col-sm-2"><a href="<?=Url::to(['/user/security/logout']);?>" class="default_t_color"
                                              data-method='post'>Logout</a></div>
-                <?php } ?>
+                <?php }?>
             </div>
             <!--/ [col]-->
 
@@ -124,15 +123,15 @@ AppAsset::register($this);
 
                     <div class="alignright site_settings">
 
-                        <span class="current open_"><img src="<?= $link ?>/images/flag_en.jpg" alt="">English</span>
+                        <span class="current open_"><img src="<?=$link;?>/images/flag_en.jpg" alt="">English</span>
 
                         <ul class="dropdown site_setting_list language">
 
-                            <li class="animated_item"><a href="#"><img src="<?= $link ?>/images/flag_en.jpg" alt="">
+                            <li class="animated_item"><a href="#"><img src="<?=$link;?>/images/flag_en.jpg" alt="">
                                     English</a></li>
-                            <li class="animated_item"><a href="#"><img src="<?= $link ?>/images/flag_g.jpg" alt="">
+                            <li class="animated_item"><a href="#"><img src="<?=$link;?>/images/flag_g.jpg" alt="">
                                     German</a></li>
-                            <li class="animated_item"><a href="#"><img src="<?= $link ?>/images/flag_s.jpg" alt="">
+                            <li class="animated_item"><a href="#"><img src="<?=$link;?>/images/flag_s.jpg" alt="">
                                     Spanish</a></li>
 
                         </ul>
@@ -196,7 +195,7 @@ AppAsset::register($this);
 
                     <a href="index.html" class="logo">
 
-                        <img src="<?= $link ?>/images/logo.png" alt="">
+                        <img src="<?=$link;?>/images/logo.png" alt="">
 
                     </a>
 
@@ -421,7 +420,7 @@ AppAsset::register($this);
         <div class="mega_menu_item">
 
             <a href="#">
-                <img src="<?= $link ?>/images/mega_menu_img_1.jpg" alt="">
+                <img src="<?=$link;?>/images/mega_menu_img_1.jpg" alt="">
             </a>
 
         </div>
@@ -486,7 +485,7 @@ AppAsset::register($this);
 
                         <div class="image_wrap">
 
-                            <img src="<?= $link ?>/images/product_img_11.jpg" alt="">
+                            <img src="<?=$link;?>/images/product_img_11.jpg" alt="">
 
                         </div>
                         <!--/. image_wrap-->
@@ -539,7 +538,7 @@ AppAsset::register($this);
 
                         <div class="image_wrap">
 
-                            <img src="<?= $link ?>/images/product_img_12.jpg" alt="">
+                            <img src="<?=$link;?>/images/product_img_12.jpg" alt="">
 
                         </div>
                         <!--/. image_wrap-->
@@ -592,7 +591,7 @@ AppAsset::register($this);
 
                         <div class="image_wrap">
 
-                            <img src="<?= $link ?>/images/product_img_13.jpg" alt="">
+                            <img src="<?=$link;?>/images/product_img_13.jpg" alt="">
 
                         </div>
                         <!--/. image_wrap-->
@@ -726,7 +725,7 @@ AppAsset::register($this);
         <div class="mega_menu_banner">
 
             <a href="#">
-                <img src="<?= $link ?>/images/mega_menu_img_2.jpg" alt="">
+                <img src="<?=$link;?>/images/mega_menu_img_2.jpg" alt="">
             </a>
 
         </div>
@@ -762,23 +761,23 @@ AppAsset::register($this);
 
         <ul>
 
-            <li class="<?= Yii::$app->request->get('catalog') || Yii::$app->request->get('tab') ? '' : 'current' ?>"><a
-                    href="<?= Url::to(['/']) ?>">Home</a></li>
+            <li class="<?=Yii::$app->request->get('catalog') || Yii::$app->request->get('tab') ? '' : 'current';?>"><a
+                    href="<?=Url::to(['/']);?>">Home</a></li>
             <?php
-            $root = \star\system\models\Tree::find()->where(['name' => '商品分类'])->one();
-            if ($root) {
-                $categories = $root->children(1)->indexBy('id')->limit(5)->all();
-                if ($categories) {
-                    foreach ($categories as $category) {
-                        ?>
-                        <li class="<?= Yii::$app->request->get('catalog') == $category->id ? 'current' : '' ?>"><a
-                                href="<?= Url::to(['/catalog/home/item/list', 'catalog' => $category->id]) ?>"><?= $category->name ?></a>
+$root = \star\system\models\Tree::find()->where(['name' => '商品分类'])->one();
+if ($root) {
+    $categories = $root->children(1)->indexBy('id')->limit(5)->all();
+    if ($categories) {
+        foreach ($categories as $category) {
+            ?>
+                        <li class="<?=Yii::$app->request->get('catalog') == $category->id ? 'current' : '';?>"><a
+                                href="<?=Url::to(['/catalog/home/item/list', 'catalog' => $category->id]);?>"><?=$category->name;?></a>
                         </li>
                     <?php }
-                }
-            } ?>
-            <li class="<?= Yii::$app->request->get('tab') ? 'current' : '' ?>">
-                <a href="<?= Url::to(['/blog/home/default', 'tab' => 'blog']) ?>">Blog</a>
+    }
+}?>
+            <li class="<?=Yii::$app->request->get('tab') ? 'current' : '';?>">
+                <a href="<?=Url::to(['/blog/home/default', 'tab' => 'blog']);?>">Blog</a>
             </li>
 
         </ul>
@@ -794,8 +793,8 @@ AppAsset::register($this);
 
 <div class="nav_item size_4">
 
-    <a href="<?= Url::to(['/member/wishlist/get-wishlist']) ?>" class="wishlist_button count-wishlist"
-       data-amount="<?= Yii::$app->user->isGuest ? 0 : $countWishlist ?>"></a>
+    <a href="<?=Url::to(['/member/wishlist/get-wishlist']);?>" class="wishlist_button count-wishlist"
+       data-amount="<?=Yii::$app->user->isGuest ? 0 : $countWishlist;?>"></a>
 
 </div>
 <!--/ .nav_item-->
@@ -834,7 +833,7 @@ AppAsset::register($this);
 
             <div class="clearfix sc_product">
 
-                <a href="#" class="product_thumb"><img src="<?= $link ?>/images/sc_img_1.jpg" alt=""></a>
+                <a href="#" class="product_thumb"><img src="<?=$link;?>/images/sc_img_1.jpg" alt=""></a>
 
                 <a href="#" class="product_name">Natural Factors PGX Daily Ultra Matrix...</a>
 
@@ -856,7 +855,7 @@ AppAsset::register($this);
 
             <div class="clearfix sc_product">
 
-                <a href="#" class="product_thumb"><img src="<?= $link ?>/images/sc_img_2.jpg" alt=""></a>
+                <a href="#" class="product_thumb"><img src="<?=$link;?>/images/sc_img_2.jpg" alt=""></a>
 
                 <a href="#" class="product_name">Oral-B Glide Pro-Health Floss...</a>
 
@@ -878,7 +877,7 @@ AppAsset::register($this);
 
             <div class="clearfix sc_product">
 
-                <a href="#" class="product_thumb"><img src="<?= $link ?>/images/sc_img_3.jpg" alt=""></a>
+                <a href="#" class="product_thumb"><img src="<?=$link;?>/images/sc_img_3.jpg" alt=""></a>
 
                 <a href="#" class="product_name">Culturelle Kids! Probi-<br>otic Packets 30 ea</a>
 
@@ -915,7 +914,7 @@ AppAsset::register($this);
 
         <div class="animated_item">
 
-            <a href="<?= Url::to(['/cart/cart/index']) ?>" class="button_grey">View Cart</a>
+            <a href="<?=Url::to(['/cart/cart/index']);?>" class="button_grey">View Cart</a>
 
             <a href="#" class="button_blue">Checkout</a>
 
@@ -961,16 +960,16 @@ AppAsset::register($this);
 
     <div class="container">
         <?=
-        Breadcrumbs::widget([
-            'options' => ['class' => 'breadcrumbs'],
-            'homeLink' => [
-                'label' => Yii::t('app', 'Home'),
-                'url' => Yii::$app->homeUrl,
-            ],
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]);
-        ?>
-        <?= $content ?>
+Breadcrumbs::widget([
+    'options' => ['class' => 'breadcrumbs'],
+    'homeLink' => [
+        'label' => Yii::t('app', 'Home'),
+        'url' => Yii::$app->homeUrl,
+    ],
+    'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+]);
+?>
+        <?=$content;?>
 
     </div>
     <!--/ .container-->
@@ -1207,7 +1206,7 @@ AppAsset::register($this);
 
                     <a href="#" class="entry_thumb">
 
-                        <img src="<?= $link ?>/images/latest_news_thumb_1.jpg" alt="">
+                        <img src="<?=$link;?>/images/latest_news_thumb_1.jpg" alt="">
 
                     </a>
 
@@ -1248,7 +1247,7 @@ AppAsset::register($this);
 
                     <a href="#" class="entry_thumb">
 
-                        <img src="<?= $link ?>/images/latest_news_thumb_2.jpg" alt="">
+                        <img src="<?=$link;?>/images/latest_news_thumb_2.jpg" alt="">
 
                     </a>
 
@@ -1289,7 +1288,7 @@ AppAsset::register($this);
 
                     <a href="#" class="entry_thumb">
 
-                        <img src="<?= $link ?>/images/latest_news_thumb_3.jpg" alt="">
+                        <img src="<?=$link;?>/images/latest_news_thumb_3.jpg" alt="">
 
                     </a>
 
@@ -1353,14 +1352,14 @@ AppAsset::register($this);
 
         <ul class="payments">
 
-            <li><img src="<?= $link ?>/images/payment_1.png" alt=""></li>
-            <li><img src="<?= $link ?>/images/payment_2.png" alt=""></li>
-            <li><img src="<?= $link ?>/images/payment_3.png" alt=""></li>
-            <li><img src="<?= $link ?>/images/payment_4.png" alt=""></li>
-            <li><img src="<?= $link ?>/images/payment_5.png" alt=""></li>
-            <li><img src="<?= $link ?>/images/payment_6.png" alt=""></li>
-            <li><img src="<?= $link ?>/images/payment_7.png" alt=""></li>
-            <li><img src="<?= $link ?>/images/payment_8.png" alt=""></li>
+            <li><img src="<?=$link;?>/images/payment_1.png" alt=""></li>
+            <li><img src="<?=$link;?>/images/payment_2.png" alt=""></li>
+            <li><img src="<?=$link;?>/images/payment_3.png" alt=""></li>
+            <li><img src="<?=$link;?>/images/payment_4.png" alt=""></li>
+            <li><img src="<?=$link;?>/images/payment_5.png" alt=""></li>
+            <li><img src="<?=$link;?>/images/payment_6.png" alt=""></li>
+            <li><img src="<?=$link;?>/images/payment_7.png" alt=""></li>
+            <li><img src="<?=$link;?>/images/payment_8.png" alt=""></li>
 
         </ul>
 
@@ -1507,7 +1506,7 @@ foreach ($tmpJs as $v) {
 }
 ?>
 <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js"></script>
-<?php $this->endBody() ?>
+<?php $this->endBody();?>
 </body>
 </html>
-<?php $this->endPage() ?>
+<?php $this->endPage();?>

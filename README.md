@@ -1,3 +1,6 @@
+http://merchant.star/index.php?r=payment%2Fcore%2Fpayment%2Findex (The table does not exist: payment)
+http://store.star/
+http://mall.star/
 修改为支持php7.3 现在是5.6
 英文->中文
 (account/充值)页面无法显示
