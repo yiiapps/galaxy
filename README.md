@@ -1,4 +1,10 @@
 修改为支持php7.3 现在是5.6
+英文->中文
+(account/充值)页面无法显示
+refund 无法显示
+
+php5.6 安装intl扩展
+https://www.cnblogs.com/boy215/p/6813873.html
 
 ##############################
 Yincart2 Galaxy System
