@@ -25,7 +25,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/deals_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images/deals_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -109,7 +109,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/deals_img_2.jpg" alt="">
+        <img src="<?=$link;?>/images/deals_img_2.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -193,7 +193,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/deals_img_3.jpg" alt="">
+        <img src="<?=$link;?>/images/deals_img_3.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -263,7 +263,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/deals_img_4.jpg" alt="">
+        <img src="<?=$link;?>/images/deals_img_4.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -347,7 +347,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/deals_img_5.jpg" alt="">
+        <img src="<?=$link;?>/images/deals_img_5.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -551,7 +551,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
         <div class="mega_menu_item">
 
             <a href="#">
-                <img src="<?= $link ?>/images/mega_menu_img_1.jpg" alt="">
+                <img src="<?=$link;?>/images/mega_menu_img_1.jpg" alt="">
             </a>
 
         </div><!--/ .mega_menu_item-->
@@ -613,7 +613,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
                         <div class="image_wrap">
 
-                            <img src="<?= $link ?>/images/product_img_11.jpg" alt="">
+                            <img src="<?=$link;?>/images/product_img_11.jpg" alt="">
 
                         </div><!--/. image_wrap-->
 
@@ -661,7 +661,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
                         <div class="image_wrap">
 
-                            <img src="<?= $link ?>/images/product_img_12.jpg" alt="">
+                            <img src="<?=$link;?>/images/product_img_12.jpg" alt="">
 
                         </div><!--/. image_wrap-->
 
@@ -709,7 +709,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
                         <div class="image_wrap">
 
-                            <img src="<?= $link ?>/images/product_img_13.jpg" alt="">
+                            <img src="<?=$link;?>/images/product_img_13.jpg" alt="">
 
                         </div><!--/. image_wrap-->
 
@@ -832,7 +832,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
         <div class="mega_menu_banner">
 
             <a href="#">
-                <img src="<?= $link ?>/images/mega_menu_img_2.jpg" alt="">
+                <img src="<?=$link;?>/images/mega_menu_img_2.jpg" alt="">
             </a>
 
         </div><!--/ .mega_menu_banner-->
@@ -861,7 +861,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <a href="#">
 
-        <img src="<?= $link ?>/images/banner_img_10.png" alt="">
+        <img src="<?=$link;?>/images/banner_img_10.png" alt="">
 
     </a>
 
@@ -947,7 +947,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
             <a href="#" class="product_thumb">
 
-                <img src="<?= $link ?>/images/product_thumb_4.jpg" alt="">
+                <img src="<?=$link;?>/images/product_thumb_4.jpg" alt="">
 
             </a>
 
@@ -987,7 +987,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
             <a href="#" class="product_thumb">
 
-                <img src="<?= $link ?>/images/product_thumb_5.jpg" alt="">
+                <img src="<?=$link;?>/images/product_thumb_5.jpg" alt="">
 
             </a>
 
@@ -1027,7 +1027,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
             <a href="#" class="product_thumb">
 
-                <img src="<?= $link ?>/images/product_thumb_6.jpg" alt="">
+                <img src="<?=$link;?>/images/product_thumb_6.jpg" alt="">
 
             </a>
 
@@ -1083,7 +1083,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <a href="#">
 
-        <img src="<?= $link ?>/images/banner_img_11.png" alt="">
+        <img src="<?=$link;?>/images/banner_img_11.png" alt="">
 
     </a>
 
@@ -1105,7 +1105,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
             <a href="#" class="product_thumb">
 
-                <img src="<?= $link ?>/images/product_thumb_10.jpg" alt="">
+                <img src="<?=$link;?>/images/product_thumb_10.jpg" alt="">
 
             </a>
 
@@ -1131,7 +1131,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
             <a href="#" class="product_thumb">
 
-                <img src="<?= $link ?>/images/product_thumb_11.jpg" alt="">
+                <img src="<?=$link;?>/images/product_thumb_11.jpg" alt="">
 
             </a>
 
@@ -1157,7 +1157,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
             <a href="#" class="product_thumb">
 
-                <img src="<?= $link ?>/images/product_thumb_12.jpg" alt="">
+                <img src="<?=$link;?>/images/product_thumb_12.jpg" alt="">
 
             </a>
 
@@ -1239,7 +1239,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
                 <li data-transition="papercut" data-slotamount="7">
 
-                    <img src="<?= $link ?>/images/home_slide_4.jpg" alt="">
+                    <img src="<?=$link;?>/images/home_slide_4.jpg" alt="">
 
                     <div class="caption sfl stl layer_1" data-x="left" data-hoffset="60" data-y="90" data-easing="easeOutBack" data-speed="600" data-start="900">Best Quality</div>
 
@@ -1259,7 +1259,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
                 <li data-transition="papercut" data-slotamount="7" class="align_center">
 
-                    <img src="<?= $link ?>/images//home_slide_5.jpg" alt="">
+                    <img src="<?=$link;?>/images//home_slide_5.jpg" alt="">
 
                     <div class="caption sfl stl layer_5" data-x="center" data-y="77" data-easing="easeOutBack" data-speed="600" data-start="900">Have A Question?</div>
 
@@ -1277,7 +1277,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
                 <li data-transition="papercut" data-slotamount="7">
 
-                    <img src="<?= $link ?>/images//home_slide_6.jpg" alt="">
+                    <img src="<?=$link;?>/images//home_slide_6.jpg" alt="">
 
                     <div class="caption sfl stl layer_8" data-x="right" data-y="73" data-hoffset="-60" data-easing="easeOutBack" data-speed="600" data-start="900">Get 10% Off</div>
 
@@ -1313,7 +1313,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
             <a href="#" class="banner animated transparent" data-animation="fadeInDown">
 
-                <img src="<?= $link ?>/images//banner_img_1.jpg" alt="">
+                <img src="<?=$link;?>/images//banner_img_1.jpg" alt="">
 
             </a>
 
@@ -1323,7 +1323,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
             <a href="#" class="banner animated transparent" data-animation="fadeInDown" data-animation-delay="150">
 
-                <img src="<?= $link ?>/images//banner_img_2.jpg" alt="">
+                <img src="<?=$link;?>/images//banner_img_2.jpg" alt="">
 
             </a>
 
@@ -1377,7 +1377,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -1445,7 +1445,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_2.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_2.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -1519,7 +1519,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_3.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_3.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -1585,7 +1585,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -1673,7 +1673,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -1739,7 +1739,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_2.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_2.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -1813,7 +1813,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_3.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_3.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -1879,7 +1879,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -1967,7 +1967,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_4.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_4.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -2033,7 +2033,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_3.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_3.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -2107,7 +2107,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_5.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_5.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -2173,7 +2173,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -2261,7 +2261,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_5.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_5.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -2327,7 +2327,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_3.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_3.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -2401,7 +2401,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -2467,7 +2467,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -2555,7 +2555,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -2621,7 +2621,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_2.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_2.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -2695,7 +2695,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_3.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_3.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -2761,7 +2761,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_4.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_4.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -2865,7 +2865,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//product_img_7.jpg" alt="">
+        <img src="<?=$link;?>/images//product_img_7.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -2939,7 +2939,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//product_img_8.jpg" alt="">
+        <img src="<?=$link;?>/images//product_img_8.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -3019,7 +3019,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//product_img_9.jpg" alt="">
+        <img src="<?=$link;?>/images//product_img_9.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -3079,7 +3079,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -3199,7 +3199,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//product_img_3.jpg" alt="">
+        <img src="<?=$link;?>/images//product_img_3.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -3265,7 +3265,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//product_img_4.jpg" alt="">
+        <img src="<?=$link;?>/images//product_img_4.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -3339,7 +3339,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//product_img_5.jpg" alt="">
+        <img src="<?=$link;?>/images//product_img_5.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -3405,7 +3405,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -3493,7 +3493,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -3559,7 +3559,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_2.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_2.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -3633,7 +3633,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_3.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_3.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -3699,7 +3699,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -3787,7 +3787,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_4.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_4.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -3853,7 +3853,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_3.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_3.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -3927,7 +3927,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_5.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_5.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -3993,7 +3993,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//tabs_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images//tabs_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -4081,7 +4081,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_5.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_5.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -4147,7 +4147,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images//deals_img_3.jpg" alt="">
+        <img src="<?=$link;?>/images//deals_img_3.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -4221,7 +4221,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/deals_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images/deals_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -4287,7 +4287,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/tabs_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images/tabs_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -4375,7 +4375,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/deals_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images/deals_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -4441,7 +4441,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/deals_img_2.jpg" alt="">
+        <img src="<?=$link;?>/images/deals_img_2.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -4515,7 +4515,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/tabs_img_3.jpg" alt="">
+        <img src="<?=$link;?>/images/tabs_img_3.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -4581,7 +4581,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/deals_img_4.jpg" alt="">
+        <img src="<?=$link;?>/images/deals_img_4.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -4669,7 +4669,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/deals_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images/deals_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -4735,7 +4735,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/tabs_img_2.jpg" alt="">
+        <img src="<?=$link;?>/images/tabs_img_2.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -4809,7 +4809,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/tabs_img_3.jpg" alt="">
+        <img src="<?=$link;?>/images/tabs_img_3.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -4875,7 +4875,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/tabs_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images/tabs_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -4963,7 +4963,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/deals_img_5.jpg" alt="">
+        <img src="<?=$link;?>/images/deals_img_5.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -5029,7 +5029,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/deals_img_3.jpg" alt="">
+        <img src="<?=$link;?>/images/deals_img_3.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -5103,7 +5103,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/deals_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images/deals_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -5169,7 +5169,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/tabs_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images/tabs_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -5273,7 +5273,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/product_img_6.jpg" alt="">
+        <img src="<?=$link;?>/images/product_img_6.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -5339,7 +5339,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/product_img_14.jpg" alt="">
+        <img src="<?=$link;?>/images/product_img_14.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -5399,7 +5399,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/product_img_15.jpg" alt="">
+        <img src="<?=$link;?>/images/product_img_15.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 
@@ -5459,7 +5459,7 @@ $link = $this->getAssetManager()->getPublishedUrl('@theme/cluster/default/assets
 
     <div class="image_wrap">
 
-        <img src="<?= $link ?>/images/tabs_img_1.jpg" alt="">
+        <img src="<?=$link;?>/images/tabs_img_1.jpg" alt="">
 
         <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
 

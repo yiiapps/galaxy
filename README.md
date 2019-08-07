@@ -1,3 +1,15 @@
+http://merchant.star/index.php?r=payment%2Fcore%2Fpayment%2Findex (The table does not exist: payment)
+http://store.star/
+http://mall.star/
+修改为支持php7.3 现在是5.6
+英文->中文
+(account/充值)页面无法显示
+refund 无法显示
+
+php5.6 安装intl扩展
+https://www.cnblogs.com/boy215/p/6813873.html
+
+##############################
 Yincart2 Galaxy System
 ===================================
 
@@ -38,13 +50,13 @@ modules                  公用模块
     shipment             物流模块
     store                商店模块
     system               系统模块
-star-center              平台后台      
+star-center              平台后台
 star-cms                 内容管理平台：可用于公司官方网站
 star-mall                商城前台：如天猫、京东
-star-merchant            商家后台   
-star-store               商店前台  
+star-merchant            商家后台
+star-store               商店前台
 star-upload              上传的文件图片等（新安装需要自己创建此目录）
-themes                   主题皮肤          
+themes                   主题皮肤
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 tests                    contains various tests for the advanced application
